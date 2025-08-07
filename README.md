@@ -81,8 +81,11 @@ yarn start
 
 - **Production URL**: [dev-speak.com](https://dev-speak.com)
 - **Hosting**: DigitalOcean App Platform
-- **CI/CD**: Automatic deployment from the main branch
+- **CI/CD**: 
+  - GitHub Actions workflow automatically runs tests on pushes to the develop branch
+  - If tests pass, changes are automatically merged to the main branch
   - Any changes pushed to the main branch will automatically be deployed to production
+  - See [GitHub Secrets Configuration](.github/GITHUB_SECRETS.md) for required setup
 
 ## Development Guidelines
 

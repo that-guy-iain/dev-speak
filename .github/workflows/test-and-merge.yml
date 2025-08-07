@@ -1,0 +1,46 @@
+name: Test and Merge to Main
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  test-and-merge:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+      
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      
+      - name: Run tests
+        run: yarn test
+      
+      - name: Merge to main if tests pass
+        if: success()
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'github-actions@github.com'
+          
+          # Setup SSH key
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          
+          # Use SSH for git operations
+          git remote set-url origin git@github.com:${{ github.repository }}.git
+          git checkout main
+          git merge --no-ff develop -m "Merge develop into main"
+          git push origin main
