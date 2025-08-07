@@ -169,6 +169,6 @@ The project uses `@nuxt/content` for content management:
 
 ### Git
 
-1. All changes must be staged and commited with a descriptive commit message and then pushed to origin's main branch
-2. All changes must be pushed to the remote repository called origin and pushed to the branch main
+1. All changes must be staged and commited with a descriptive commit message and then pushed to origin's develop branch
+2. All changes must be pushed to the remote repository called origin and pushed to the branch develop
 3. All git commands should use the ssh command that uses the ed2551 key if it exists. If it doesn't exist just use the standard ssh command.
