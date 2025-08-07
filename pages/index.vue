@@ -29,5 +29,6 @@ definePageMeta({
 
 h1 {
   font-size: 2rem;
+  color: blue;
 }
 </style>
