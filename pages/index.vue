@@ -25,10 +25,11 @@ definePageMeta({
   align-items: center;
   height: 100vh;
   width: 100%;
+  background-color: red;
 }
 
 h1 {
   font-size: 2rem;
-  color: blue;
+  color: yellow;
 }
 </style>
