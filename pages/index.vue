@@ -1,6 +1,6 @@
 <template>
   <div class="hello-container">
-    <h1>hello world</h1>
+    <h1>Dev-Speak</h1>
   </div>
 </template>
 
