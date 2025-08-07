@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
+  css: ['~/assets/css/main.css'],
   modules: [
     '@nuxt/content',
     '@nuxt/fonts',
@@ -12,10 +13,8 @@ export default defineNuxtConfig({
 
   postcss: {
     plugins: {
-      tailwindcss: {},
+      '@tailwindcss/postcss': {},
       autoprefixer: {},
     },
   },
-
-  css: ['~/assets/css/main.css']
 })

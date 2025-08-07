@@ -29,6 +29,9 @@ jobs:
       - name: Run tests
         run: yarn test
 
+      - name: Run build
+        run: yarn build
+
       - name: Merge to main if tests pass
         if: success()
         uses: everlytic/branch-merge@1.1.2
