@@ -71,6 +71,11 @@ Run tests in watch mode during development:
 yarn test:watch
 ```
 
+Instead of testing changes with dev use build so:
+```bash
+yarn build
+```
+
 ### Writing Tests
 
 1. **Test File Structure**:
