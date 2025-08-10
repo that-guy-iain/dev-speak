@@ -18,14 +18,15 @@ definePageMeta({
 });
 </script>
 
-<style scoped>
+<style >
+@reference "tailwindcss";
 .hello-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: red;
+  @apply bg-red-500 text-white;
 }
 
 h1 {

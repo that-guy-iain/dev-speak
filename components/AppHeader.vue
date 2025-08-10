@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 w-full bg-black text-white py-6 shadow-md z-50">
+  <header class="sticky top-0 w-full bg-red-500 text-white py-6 shadow-md z-50">
     <div class="container mx-auto px-4 flex flex-col items-center space-y-4">
       <NuxtLink to="/" class="text-yellow-400 font-bold text-xl">Dev-Speak</NuxtLink>
       
@@ -22,3 +22,8 @@ defineComponent({
   name: 'AppHeader'
 });
 </script>
+
+<style scoped>
+
+@reference "tailwindcss";
+</style>
