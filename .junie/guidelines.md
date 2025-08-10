@@ -75,6 +75,7 @@ Instead of testing changes with dev use build so:
 ```bash
 yarn build
 ```
+DO NOT use `yarn dev`.
 
 ### Writing Tests
 
@@ -149,6 +150,11 @@ describe('YourComponent', () => {
    - Define prop types and default values
    - Use prop validators when appropriate
    - Define emits using `defineEmits()`
+
+4. **Styling**:
+    - Use scoped styles for component-specific styles
+    - Use Tailwind CSS classes for utility-first styling
+    - Compoenents style should include "@reference "tailwindcss";"
 
 ### TypeScript Usage
 

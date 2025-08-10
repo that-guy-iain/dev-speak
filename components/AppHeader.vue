@@ -22,3 +22,8 @@ defineComponent({
   name: 'AppHeader'
 });
 </script>
+
+<style scoped>
+
+@reference "tailwindcss";
+</style>
