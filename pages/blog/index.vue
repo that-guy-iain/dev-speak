@@ -185,8 +185,6 @@
 </template>
 
 <script setup>
-// @reference "tailwindcss";
-
 const route = useRoute()
 const router = useRouter()
 

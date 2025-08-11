@@ -4,7 +4,7 @@
       <NuxtLink to="/" class="text-yellow-400 font-bold text-xl">Dev-Speak</NuxtLink>
       
       <nav>
-        <ul class="flex space-x-6 justify-center">
+        <ul class="flex space-x-6 justify-center text-yellow">
           <li><NuxtLink to="/blog" class="hover:text-yellow-400 transition-colors">Blog</NuxtLink></li>
           <li><NuxtLink to="#" class="hover:text-yellow-400 transition-colors">Buy Book</NuxtLink></li>
           <li><NuxtLink to="#" class="hover:text-yellow-400 transition-colors">About</NuxtLink></li>
@@ -26,4 +26,6 @@ defineComponent({
 <style scoped>
 
 @reference "tailwindcss";
+@tailwind base;
+@tailwind components;
 </style>
