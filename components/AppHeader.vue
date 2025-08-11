@@ -5,7 +5,7 @@
       
       <nav>
         <ul class="flex space-x-6 justify-center">
-          <li><NuxtLink to="#" class="hover:text-yellow-400 transition-colors">Blog</NuxtLink></li>
+          <li><NuxtLink to="/blog" class="hover:text-yellow-400 transition-colors">Blog</NuxtLink></li>
           <li><NuxtLink to="#" class="hover:text-yellow-400 transition-colors">Buy Book</NuxtLink></li>
           <li><NuxtLink to="#" class="hover:text-yellow-400 transition-colors">About</NuxtLink></li>
         </ul>
