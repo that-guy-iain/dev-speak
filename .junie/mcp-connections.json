@@ -1,0 +1,71 @@
+{
+  "connections": [
+    {
+      "name": "github",
+      "type": "github",
+      "description": "GitHub MCP connection for repository management and code operations",
+      "config": {
+        "baseUrl": "https://api.github.com",
+        "authentication": {
+          "type": "pat",
+          "tokenField": "github_pat_token",
+          "description": "GitHub Personal Access Token for API authentication"
+        },
+        "capabilities": [
+          "repository.read",
+          "repository.write",
+          "issues.read",
+          "issues.write",
+          "pull_requests.read",
+          "pull_requests.write",
+          "contents.read",
+          "contents.write"
+        ],
+        "endpoints": {
+          "repositories": "/user/repos",
+          "repository": "/repos/{owner}/{repo}",
+          "contents": "/repos/{owner}/{repo}/contents/{path}",
+          "issues": "/repos/{owner}/{repo}/issues",
+          "pulls": "/repos/{owner}/{repo}/pulls",
+          "commits": "/repos/{owner}/{repo}/commits"
+        }
+      },
+      "inputs": [
+        {
+          "name": "github_pat_token",
+          "type": "password",
+          "required": true,
+          "description": "GitHub Personal Access Token",
+          "placeholder": "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+          "validation": {
+            "pattern": "^ghp_[a-zA-Z0-9]{36}$",
+            "message": "Please enter a valid GitHub Personal Access Token (starts with 'ghp_')"
+          }
+        },
+        {
+          "name": "default_owner",
+          "type": "text",
+          "required": false,
+          "description": "Default GitHub username or organization",
+          "placeholder": "username or organization"
+        },
+        {
+          "name": "default_repo",
+          "type": "text",
+          "required": false,
+          "description": "Default repository name",
+          "placeholder": "repository-name"
+        }
+      ],
+      "metadata": {
+        "version": "1.0.0",
+        "author": "Junie",
+        "created": "2025-08-11T18:27:00Z",
+        "updated": "2025-08-11T18:27:00Z"
+      }
+    }
+  ],
+  "schema_version": "1.0",
+  "created_by": "junie",
+  "created_at": "2025-08-11T18:27:00Z"
+}

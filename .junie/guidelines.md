@@ -154,7 +154,8 @@ describe('YourComponent', () => {
 4. **Styling**:
     - Use scoped styles for component-specific styles
     - Use Tailwind CSS classes for utility-first styling
-    - Compoenents style should include "@reference "tailwindcss";"
+    - Components style section must exist
+    - Cmpoenents style scetion must include "@reference "tailwindcss";"
 
 ### TypeScript Usage
 
