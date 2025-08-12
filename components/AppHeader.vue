@@ -25,7 +25,8 @@ defineComponent({
 
 <style scoped>
 
+</style>
+
+<style  lang="postcss">
 @reference "tailwindcss";
-@tailwind base;
-@tailwind components;
 </style>

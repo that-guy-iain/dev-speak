@@ -132,6 +132,7 @@ describe('YourComponent', () => {
    - Use descriptive test names
    - Mock external dependencies
    - Test edge cases and error conditions
+   - DO NOT TEST FOR CSS OR STYLING, focus on functionality and behavior
 
 ## Code Style and Development Guidelines
 
@@ -155,8 +156,9 @@ describe('YourComponent', () => {
     - Use scoped styles for component-specific styles
     - Use Tailwind CSS classes for utility-first styling
     - Components style section must exist
-    - Cmpoenents style scetion must include "@reference "tailwindcss";"
-
+    - Components style section must include "@reference "tailwindcss";"
+    - Components style section most define the lang="postcss" attribute 
+    - Components style section must not include the `@tailwind base;`, `@tailwind components;`, and `@tailwind utilities;` directives
 ### TypeScript Usage
 
 The project uses TypeScript for type safety. Key guidelines:
