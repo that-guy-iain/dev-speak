@@ -37,7 +37,7 @@
               <NuxtImg
                 src="/images/book-cover.png"
                 alt="Dev-Speak: Turn Your Vision into Tech - Book Cover"
-                width="500"
+                width="400"
                 height="600"
                 class="rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-300"
                 loading="eager"
