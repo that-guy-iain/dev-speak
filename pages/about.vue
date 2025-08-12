@@ -118,7 +118,9 @@ import { defineComponent } from 'vue';
 defineComponent({
   name: 'AboutPage'
 });
+// @name AboutPage
 
+// Define a multi-word component name to satisfy ESLint rule
 </script>
 
 <style lang="postcss">
