@@ -184,6 +184,6 @@ The project uses `@nuxt/content` for content management:
 1. All changes must be staged and commited with a descriptive commit message and then pushed to origin's develop branch
 2. All changes must be pushed to the remote repository called origin and pushed to their own feature branch if an existing feature branch does not exist.
 3. All feature branches must have a pull request created against the develop branch.
-4. All pull requests must be assigned to that-guy-iain to be reviewed before merging.
+4. All pull requests must be assigned to that-guy-iain and copilot to be reviewed before merging.
 5. All pull requests must have a descriptive title and description explaining the changes made. 
 6. All git commands should use the ssh command that uses the ed2551 key if it exists. If it doesn't exist just use the standard ssh command.
