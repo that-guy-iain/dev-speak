@@ -7,7 +7,7 @@
         </NuxtLink>
         
         <nav>
-          <ul class="flex space-x-8">
+          <ul class="flex space-x-8 list-none">
             <li>
               <NuxtLink 
                 to="/blog" 
