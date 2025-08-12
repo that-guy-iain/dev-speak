@@ -156,8 +156,8 @@ describe('YourComponent', () => {
     - Use Tailwind CSS classes for utility-first styling
     - Components style section must exist
     - Components style section must include "@reference "tailwindcss";"
-    - Components style section but define the lang="postcss" attribute 
-
+    - Components style section most define the lang="postcss" attribute 
+    - Components style section must not include the `@tailwind base;`, `@tailwind components;`, and `@tailwind utilities;` directives
 ### TypeScript Usage
 
 The project uses TypeScript for type safety. Key guidelines:

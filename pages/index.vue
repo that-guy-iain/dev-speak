@@ -20,18 +20,4 @@ definePageMeta({
 
 <style  lang="postcss">
 @reference "tailwindcss";
-
-.hello-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  @apply bg-red-600;
-}
-
-h1 {
-  font-size: 2rem;
-  color: yellow;
-}
 </style>

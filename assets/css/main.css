@@ -1,3 +1,5 @@
+
+@reference "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,8 +10,4 @@ body, html {
   padding: 0;
   overflow-x: hidden;
 
-}
-
-.text-yellow {
-  color: yellow;
 }
