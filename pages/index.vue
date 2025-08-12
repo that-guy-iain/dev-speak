@@ -96,6 +96,108 @@
         </div>
       </div>
     </section>
+
+    <!-- Learning Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">
+            Know When You're Being Advised Correctly
+          </h2>
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            Learn to spot the differences between programming languages, databases, and hosting solutions 
+            so you can evaluate technical recommendations with confidence
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <!-- Programming Languages -->
+          <div class="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Programming Languages</h3>
+            <ul class="space-y-3 text-gray-600">
+              <li class="flex items-start">
+                <span class="text-orange-600 mr-2">•</span>
+                <span>Understand when Python vs JavaScript vs PHP makes sense for your project</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-orange-600 mr-2">•</span>
+                <span>Recognize when a developer is pushing their favorite language unnecessarily</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-orange-600 mr-2">•</span>
+                <span>Know the real trade-offs between speed, cost, and development time</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Databases -->
+          <div class="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Database Solutions</h3>
+            <ul class="space-y-3 text-gray-600">
+              <li class="flex items-start">
+                <span class="text-teal-600 mr-2">•</span>
+                <span>Learn when MySQL, PostgreSQL, or MongoDB is the right choice</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-teal-600 mr-2">•</span>
+                <span>Spot over-engineered database solutions that waste money</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-teal-600 mr-2">•</span>
+                <span>Understand scaling implications before you need them</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Hosting Solutions -->
+          <div class="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-4 text-center">Hosting & Infrastructure</h3>
+            <ul class="space-y-3 text-gray-600">
+              <li class="flex items-start">
+                <span class="text-indigo-600 mr-2">•</span>
+                <span>Know when AWS, Google Cloud, or simple shared hosting is appropriate</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-indigo-600 mr-2">•</span>
+                <span>Avoid paying for enterprise solutions when you need basic hosting</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-indigo-600 mr-2">•</span>
+                <span>Understand the real costs of different hosting approaches</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="text-center mt-12">
+          <p class="text-lg text-gray-600 mb-6">
+            Stop second-guessing technical decisions. Get the knowledge you need to lead confidently.
+          </p>
+          <a 
+            href="#" 
+            class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl"
+          >
+            Learn the Differences - $10
+          </a>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
