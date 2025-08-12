@@ -18,7 +18,7 @@
             </li>
             <li>
               <NuxtLink 
-                to="#" 
+                to="/about" 
                 class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200"
               >
                 About
