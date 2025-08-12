@@ -194,7 +194,7 @@ const currentPage = ref(parseInt(route.query.page) || 1)
 
 // Fetch blog posts with pagination
 const { data: allPosts, pending } = await useAsyncData('blog-posts', () => 
-  queryContent('blog')
+  queryContent('/blog')
     .sort({ date: -1 })
     .find()
 )
