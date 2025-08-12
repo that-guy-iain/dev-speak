@@ -25,8 +25,8 @@
                 src="/images/iain-photo.jpg"
                 alt="Iain Cambridge - Software Development Consultant"
                 width="400"
-                height="400"
-                class="rounded-lg shadow-lg w-full"
+                height="600"
+                class="rounded-lg shadow-lg w-full h-auto object-cover"
                 loading="eager"
               />
             </div>
