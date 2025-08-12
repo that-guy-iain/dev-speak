@@ -25,7 +25,4 @@ defineComponent({
 
 <style scoped>
 
-@reference "tailwindcss";
-@tailwind base;
-@tailwind components;
 </style>

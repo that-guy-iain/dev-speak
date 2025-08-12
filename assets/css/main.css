@@ -9,3 +9,7 @@ body, html {
   overflow-x: hidden;
 
 }
+
+.text-yellow {
+  color: yellow;
+}

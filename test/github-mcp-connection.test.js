@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import fs from 'fs'
 import path from 'path'
-import GitHubMCPHandler from '../.junie/github-mcp-handler.js'
+import GitHubMCPHandler from '../../new/.junie/github-mcp-handler.js'
 
 // Mock fetch for testing
 global.fetch = vi.fn()

@@ -1,6 +1,6 @@
 <template>
-  <div class="hello-container">
-    <h1>Dev-Speak</h1>
+  <div class="hello-container bg-yellow">
+    <h1 class="underline">Dev-Speak</h1>
   </div>
 </template>
 
@@ -18,15 +18,16 @@ definePageMeta({
 });
 </script>
 
-<style >
+<style  lang="postcss">
 @reference "tailwindcss";
+
 .hello-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100%;
-  @apply bg-red-500 text-white;
+  @apply bg-red-600;
 }
 
 h1 {
