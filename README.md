@@ -90,7 +90,7 @@ yarn start
 ## Development Guidelines
 
 ### Content Management
-
+ sadsda
 - Place content files in the `content/` directory
 - Use Markdown for content with front matter for metadata
 - Access content using the `useAsyncData` and `queryContent` composables
