@@ -303,6 +303,8 @@ useHead({
 })
 </script>
 
-<style  lang="postcss">
-@reference "tailwindcss";
+<style lang="postcss">
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 </style>
