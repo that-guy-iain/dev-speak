@@ -7,7 +7,7 @@
         </NuxtLink>
         
         <nav>
-          <ul class="flex space-x-8 list-none">
+          <ul class="flex items-center space-x-8">
             <li>
               <NuxtLink 
                 to="/blog" 
@@ -21,15 +21,15 @@
                 to="#" 
                 class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200"
               >
-                Buy Book
+                About
               </NuxtLink>
             </li>
             <li>
               <NuxtLink 
                 to="#" 
-                class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200"
+                class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded-lg transition-colors duration-200"
               >
-                About
+                Buy Book
               </NuxtLink>
             </li>
           </ul>
