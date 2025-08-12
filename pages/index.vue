@@ -23,7 +23,7 @@
                 Get Your Copy - $10
               </a>
               <a 
-                href="/blog" 
+                href="/content/blog"
                 class="inline-flex items-center justify-center px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:border-blue-600 hover:text-blue-600 transition-colors duration-200"
               >
                 Read the Blog

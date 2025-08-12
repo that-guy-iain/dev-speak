@@ -10,7 +10,7 @@
           <ul class="list-none flex items-center space-x-8">
             <li>
               <NuxtLink 
-                to="/blog" 
+                to="/blog"
                 class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200"
               >
                 Blog
@@ -25,12 +25,13 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink 
-                to="#" 
-                class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-4 py-2 rounded-lg transition-colors duration-200"
+              <a
+                href="https://humblyarrogant.gumroad.com/l/dev-speak"
+                target="_blank"
+                class="bg-blue-600 hover:bg-blue-700 no-underline font-bold text-white px-4 py-2 rounded-lg transition-colors duration-200"
               >
                 Buy Book
-              </NuxtLink>
+              </a>
             </li>
           </ul>
         </nav>
