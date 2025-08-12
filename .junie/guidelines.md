@@ -132,6 +132,7 @@ describe('YourComponent', () => {
    - Use descriptive test names
    - Mock external dependencies
    - Test edge cases and error conditions
+   - DO NOT TEST FOR CSS OR STYLING, focus on functionality and behavior
 
 ## Code Style and Development Guidelines
 
