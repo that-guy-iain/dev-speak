@@ -59,35 +59,7 @@ describe('About Page', () => {
           NuxtLink: true
         }
       }
-  let wrapper;
-  beforeEach(() => {
-    wrapper = mount(About, {
-      global: {
-        stubs: {
-          NuxtImg: true,
-          NuxtLink: true
-        }
-      }
-    });
-  });
-
-  it('renders properly', () => {
-    expect(wrapper.exists()).toBe(true)
-  })
-  
-  it('displays the main heading', () => {
-    expect(wrapper.find('h1').text()).toBe('About the Author')
-  })
-  
-  it('displays Iain Cambridge name', () => {
-    expect(wrapper.find('h2').text()).toBe('Iain Cambridge')
-  })
-  
-  it('mentions 15 years of experience', () => {
-    expect(wrapper.text()).toContain('15 years of experience')
-  })
-  
-  it('mentions the book purpose for non-technical founders', () => {
+    })
     expect(wrapper.text()).toContain('non-technical founders')
     expect(wrapper.text()).toContain('gets ripped off')
     expect(wrapper.text()).toContain('wrong technology')

@@ -22,11 +22,11 @@
           <div class="lg:col-span-1">
             <div class="relative">
               <NuxtImg
-                src="https://via.placeholder.com/400x400/3B82F6/FFFFFF?text=Iain+Cambridge"
+                src="/images/iain-photo.jpg"
                 alt="Iain Cambridge - Software Development Consultant"
                 width="400"
-                height="400"
-                class="rounded-lg shadow-lg w-full"
+                height="600"
+                class="rounded-lg shadow-lg w-full h-auto object-cover"
                 loading="eager"
               />
             </div>
