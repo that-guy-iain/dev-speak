@@ -35,7 +35,7 @@
           <div class="flex justify-center lg:justify-end">
             <div class="relative">
               <NuxtImg
-                src="https://via.placeholder.com/500x600/3B82F6/FFFFFF?text=Dev-Speak+Book+Cover"
+                src="/images/book-cover.png"
                 alt="Dev-Speak: Turn Your Vision into Tech - Book Cover"
                 width="500"
                 height="600"
