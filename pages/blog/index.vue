@@ -26,12 +26,12 @@
             <!-- Blog Post Cards -->
             <article 
               v-for="post in posts" 
-              :key="post._path"
+              :key="post.slug"
               class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 p-6 border border-gray-200"
             >
               <header class="mb-4">
                 <h2 class="text-xl font-semibold text-gray-900 mb-2 hover:text-blue-600 transition-colors">
-                  <NuxtLink :to="post._path" class="block">
+                  <NuxtLink :to="`/blog/${post.slug}`" class="block">
                     {{ post.title }}
                   </NuxtLink>
                 </h2>
@@ -56,7 +56,7 @@
               
               <footer class="mt-4 pt-4 border-t border-gray-100">
                 <NuxtLink 
-                  :to="post._path"
+                  :to="`/blog/${post.slug}`"
                   class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors"
                 >
                   Read more
@@ -149,9 +149,9 @@
             <div v-if="recentPosts && recentPosts.length > 0" class="bg-white rounded-lg shadow-sm p-6 border border-gray-200">
               <h3 class="text-lg font-semibold text-gray-900 mb-4">Recent Posts</h3>
               <div class="space-y-3">
-                <article v-for="post in recentPosts" :key="post._path" class="group">
+                <article v-for="post in recentPosts" :key="post.slug" class="group">
                   <h4 class="text-sm font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
-                    <NuxtLink :to="post._path" class="block">
+                    <NuxtLink :to="`/blog/${post.slug}`" class="block">
                       {{ post.title }}
                     </NuxtLink>
                   </h4>
