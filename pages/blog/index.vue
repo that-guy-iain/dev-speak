@@ -193,12 +193,12 @@ const POSTS_PER_PAGE = 10
 const currentPage = ref(parseInt(route.query.page) || 1)
 
 // Fetch blog posts with pagination
-const { data: allPosts, pending } = await useAsyncData('blog-posts', () => 
-  queryContent('/blog')
-    .sort({ date: -1 })
-    .find()
-)
 
+const { data: allPosts , pending } = await useAsyncData('blog-posts', () =>
+    queryCollection('blog')
+        .order('date', 'DESC')  // optional sorting
+        .all()
+)
 // Calculate pagination
 const totalPosts = computed(() => allPosts.value?.length || 0)
 const totalPages = computed(() => Math.ceil(totalPosts.value / POSTS_PER_PAGE))
@@ -302,8 +302,7 @@ useHead({
   ]
 })
 
-
 </script>
 
-<style  lang="postcss">
+<style scoped>
 </style>
