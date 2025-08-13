@@ -1,0 +1,206 @@
+yarn run v1.22.22
+warning ../package.json: No license field
+$ nuxt build
+Nuxt 4.0.3 with Nitro 2.12.4                                   nuxi 9:21:53 PM
+[@nuxt/content 9:21:56 PM] ✔ Processed 2 collections and 1 files in 84.52ms (1 cached, 0 parsed)
+ℹ Building for Nitro preset: node-server                      nuxi 9:21:57 PM
+ℹ Building client...                                               9:21:58 PM
+ℹ vite v7.0.6 building for production...                           9:21:58 PM
+ℹ ✓ 266 modules transformed.                                       9:22:04 PM
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/sqlite3-opfs-async-proxy-C_otN2ZJ.js            9.45 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/manifest.json                                        13.44 kB │ gzip:   1.31 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/sqlite3-worker1-bundler-friendly-CmtFRRLP.js  196.86 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/sqlite3.Ubkxdgq9.wasm                         856.03 kB │ gzip: 393.29 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/sqlite3-Ubkxdgq9.wasm                         856.03 kB │ gzip: 393.29 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/ProsePre.D5orA6B_.css                           0.03 kB │ gzip:   0.05 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/index.BT0PDr57.css                              0.07 kB │ gzip:   0.08 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/_slug_.CtseDvGu.css                             1.15 kB │ gzip:   0.42 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/error-500.C8KkKrNs.css                          1.91 kB │ gzip:   0.73 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/error-404.CQJqancE.css                          2.43 kB │ gzip:   0.86 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/entry.CGHSOdi-.css                             37.66 kB │ gzip:   4.89 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/D8u7BE2D.js                                     0.18 kB │ gzip:   0.17 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CCy_bu35.js                                     0.21 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DvsTwqsI.js                                     0.21 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/B1Z0gFzi.js                                     0.21 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CPGjhibU.js                                     0.21 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CV6n9Jzx.js                                     0.21 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CTZBMAB4.js                                     0.21 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/41KlrehG.js                                     0.21 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/sgrp4_m4.js                                     0.21 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/IVMYBfIv.js                                     0.22 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CkLR5GgD.js                                     0.22 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CdABQrH1.js                                     0.22 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/C35X8OXm.js                                     0.22 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/OPgFHHll.js                                     0.22 kB │ gzip:   0.19 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/ieOX0Koe.js                                     0.23 kB │ gzip:   0.20 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DUKIaptr.js                                     0.35 kB │ gzip:   0.25 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Q0laQndi.js                                     0.41 kB │ gzip:   0.25 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CTOdZqaO.js                                     0.47 kB │ gzip:   0.32 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DbkhUqTy.js                                     0.49 kB │ gzip:   0.33 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/Djmq-m5K.js                                     0.50 kB │ gzip:   0.34 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/BEa132hj.js                                     0.50 kB │ gzip:   0.34 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/zrgaz5hY.js                                     0.50 kB │ gzip:   0.34 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CtyVqEDM.js                                     0.50 kB │ gzip:   0.34 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CYhd329q.js                                     0.50 kB │ gzip:   0.34 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/BB05EB83.js                                     0.62 kB │ gzip:   0.38 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CpJNc5c2.js                                     2.67 kB │ gzip:   1.27 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DqUkM0DQ.js                                     3.47 kB │ gzip:   1.55 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/DrRvMglY.js                                     3.76 kB │ gzip:   1.69 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CiEK3Ka7.js                                     3.94 kB │ gzip:   1.86 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/B69LyqHE.js                                     7.60 kB │ gzip:   2.81 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CFOxEx3e.js                                     8.27 kB │ gzip:   2.50 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CecF3QG7.js                                     8.95 kB │ gzip:   3.69 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/BLULoaA_.js                                     9.03 kB │ gzip:   3.64 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/UXdq2FLQ.js                                    38.40 kB │ gzip:  13.54 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/BRutiHyD.js                                   174.77 kB │ gzip:  65.98 kB
+[9:22:05 PM] ℹ node_modules/.cache/nuxt/.nuxt/dist/client/_nuxt/CDPgpeXv.js                                   199.76 kB │ gzip:  59.03 kB
+ℹ ✓ built in 6.84s                                                 9:22:05 PM
+✔ Client built in 6868ms                                           9:22:05 PM
+ℹ Building server...                                               9:22:05 PM
+ℹ vite v7.0.6 building SSR bundle for production...                9:22:05 PM
+ℹ ✓ 168 modules transformed.                                       9:22:07 PM
+[9:22:07 PM]  WARN  [plugin @tailwindcss/vite:generate:build] Sourcemap is likely to be incorrect: a plugin (@tailwindcss/vite:generate:build) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help
+[9:22:07 PM]  WARN  [plugin @tailwindcss/vite:generate:build] Sourcemap is likely to be incorrect: a plugin (@tailwindcss/vite:generate:build) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help (x2)
+[9:22:07 PM]  WARN  [plugin @tailwindcss/vite:generate:build] Sourcemap is likely to be incorrect: a plugin (@tailwindcss/vite:generate:build) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help (x3)
+[9:22:07 PM]  WARN  [plugin @tailwindcss/vite:generate:build] Sourcemap is likely to be incorrect: a plugin (@tailwindcss/vite:generate:build) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help (x4)
+ℹ ✓ built in 2.38s                                                 9:22:07 PM
+✔ Server built in 2393ms                                           9:22:07 PM
+ℹ Initializing prerenderer                                   nitro 9:22:07 PM
+ℹ Prerendering 1 routes                                      nitro 9:22:10 PM
+  ├─ /__nuxt_content/blog/sql_dump.txt (8ms)                  nitro 9:22:10 PM
+ℹ Prerendered 1 routes in 2.664 seconds                      nitro 9:22:10 PM
+✔ Generated public .output/public                            nitro 9:22:10 PM
+[nitro 9:22:10 PM] ℹ Building Nuxt Nitro server (preset: node-server, compatibility date: 2025-07-15)
+✔ Nuxt Nitro server built                                    nitro 9:22:22 PM
+  ├─ .output/server/chunks/_/error-500.mjs (5.07 kB) (2.06 kB gzip)
+  ├─ .output/server/chunks/_/error-500.mjs.map (200 B) (163 B gzip)
+  ├─ .output/server/chunks/build/_slug_-IJHgckUH.mjs (41 kB) (9.71 kB gzip)
+  ├─ .output/server/chunks/build/_slug_-IJHgckUH.mjs.map (988 B) (457 B gzip)
+  ├─ .output/server/chunks/build/_slug_-styles-1.mjs-tp4I6ZeR.mjs (1.35 kB) (526 B gzip)
+  ├─ .output/server/chunks/build/_slug_-styles-1.mjs-tp4I6ZeR.mjs.map (119 B) (121 B gzip)
+  ├─ .output/server/chunks/build/_slug_-styles.CiNQ8QmH.mjs (357 B) (204 B gzip)
+  ├─ .output/server/chunks/build/_slug_-styles.CiNQ8QmH.mjs.map (243 B) (181 B gzip)
+  ├─ .output/server/chunks/build/_slug_-styles.UcxVU80d.mjs (301 B) (198 B gzip)
+  ├─ .output/server/chunks/build/_slug_-styles.UcxVU80d.mjs.map (233 B) (175 B gzip)
+  ├─ .output/server/chunks/build/about-B61AFqFZ.mjs (5.48 kB) (2.28 kB gzip)
+  ├─ .output/server/chunks/build/about-B61AFqFZ.mjs.map (735 B) (351 B gzip)
+  ├─ .output/server/chunks/build/app-DR2rFj_r.mjs (14.6 kB) (4 kB gzip)
+  ├─ .output/server/chunks/build/app-DR2rFj_r.mjs.map (594 B) (293 B gzip)
+  ├─ .output/server/chunks/build/app-styles-1.mjs-MajhH3WF.mjs (22.1 kB) (3.92 kB gzip)
+  ├─ .output/server/chunks/build/app-styles-1.mjs-MajhH3WF.mjs.map (116 B) (119 B gzip)
+  ├─ .output/server/chunks/build/app-styles.DyOG9BqB.mjs (283 B) (196 B gzip)
+  ├─ .output/server/chunks/build/app-styles.DyOG9BqB.mjs.map (227 B) (176 B gzip)
+  ├─ .output/server/chunks/build/app-styles.I9wbn4pt.mjs (336 B) (198 B gzip)
+  ├─ .output/server/chunks/build/app-styles.I9wbn4pt.mjs.map (237 B) (178 B gzip)
+  ├─ .output/server/chunks/build/AppHeader-styles-1.mjs-cOLeYKRp.mjs (241 B) (185 B gzip)
+  ├─ .output/server/chunks/build/AppHeader-styles-1.mjs-cOLeYKRp.mjs.map (122 B) (124 B gzip)
+  ├─ .output/server/chunks/build/AppHeader-styles.B_vRqCd-.mjs (330 B) (194 B gzip)
+  ├─ .output/server/chunks/build/AppHeader-styles.B_vRqCd-.mjs.map (249 B) (184 B gzip)
+  ├─ .output/server/chunks/build/AppHeader-styles.DjIDia5_.mjs (287 B) (189 B gzip)
+  ├─ .output/server/chunks/build/AppHeader-styles.DjIDia5_.mjs.map (239 B) (179 B gzip)
+  ├─ .output/server/chunks/build/client.manifest.mjs (15.4 kB) (1.38 kB gzip)
+  ├─ .output/server/chunks/build/client.manifest.mjs.map (204 B) (158 B gzip)
+  ├─ .output/server/chunks/build/composables-CpCIa_7b.mjs (716 B) (384 B gzip)
+  ├─ .output/server/chunks/build/composables-CpCIa_7b.mjs.map (207 B) (170 B gzip)
+  ├─ .output/server/chunks/build/database.compressed.mjs (4.42 kB) (3.38 kB gzip)
+  ├─ .output/server/chunks/build/database.compressed.mjs.map (208 B) (158 B gzip)
+  ├─ .output/server/chunks/build/error-404-DduDL8n3.mjs (5.66 kB) (2.27 kB gzip)
+  ├─ .output/server/chunks/build/error-404-DduDL8n3.mjs.map (245 B) (196 B gzip)
+  ├─ .output/server/chunks/build/error-404-styles-1.mjs-B86-r7C2.mjs (2.66 kB) (963 B gzip)
+  ├─ .output/server/chunks/build/error-404-styles-1.mjs-B86-r7C2.mjs.map (122 B) (122 B gzip)
+  ├─ .output/server/chunks/build/error-404-styles.C_L_5G6H.mjs (373 B) (207 B gzip)
+  ├─ .output/server/chunks/build/error-404-styles.C_L_5G6H.mjs.map (249 B) (184 B gzip)
+  ├─ .output/server/chunks/build/error-404-styles.DZnihAWO.mjs (315 B) (206 B gzip)
+  ├─ .output/server/chunks/build/error-404-styles.DZnihAWO.mjs.map (239 B) (179 B gzip)
+  ├─ .output/server/chunks/build/error-500-BTetPW1Q.mjs (4.88 kB) (2.01 kB gzip)
+  ├─ .output/server/chunks/build/error-500-BTetPW1Q.mjs.map (227 B) (184 B gzip)
+  ├─ .output/server/chunks/build/error-500-styles-1.mjs-D_XQUg-U.mjs (2.13 kB) (840 B gzip)
+  ├─ .output/server/chunks/build/error-500-styles-1.mjs-D_XQUg-U.mjs.map (122 B) (124 B gzip)
+  ├─ .output/server/chunks/build/error-500-styles.BoWwYdOn.mjs (315 B) (204 B gzip)
+  ├─ .output/server/chunks/build/error-500-styles.BoWwYdOn.mjs.map (239 B) (178 B gzip)
+  ├─ .output/server/chunks/build/error-500-styles.DedKE5EJ.mjs (373 B) (207 B gzip)
+  ├─ .output/server/chunks/build/error-500-styles.DedKE5EJ.mjs.map (249 B) (183 B gzip)
+  ├─ .output/server/chunks/build/index-DuFpfAZz.mjs (9.46 kB) (2.88 kB gzip)
+  ├─ .output/server/chunks/build/index-DuFpfAZz.mjs.map (564 B) (283 B gzip)
+  ├─ .output/server/chunks/build/index-styles-1.mjs-fimaLAE9.mjs (229 B) (179 B gzip)
+  ├─ .output/server/chunks/build/index-styles-1.mjs-fimaLAE9.mjs.map (118 B) (120 B gzip)
+  ├─ .output/server/chunks/build/index-styles.BGS1bBKJ.mjs (302 B) (188 B gzip)
+  ├─ .output/server/chunks/build/index-styles.BGS1bBKJ.mjs.map (241 B) (181 B gzip)
+  ├─ .output/server/chunks/build/index-styles.DdApdAZ6.mjs (263 B) (183 B gzip)
+  ├─ .output/server/chunks/build/index-styles.DdApdAZ6.mjs.map (231 B) (175 B gzip)
+  ├─ .output/server/chunks/build/index-y4qNt8rN.mjs (12.8 kB) (3.52 kB gzip)
+  ├─ .output/server/chunks/build/index-y4qNt8rN.mjs.map (6.29 kB) (1.67 kB gzip)
+  ├─ .output/server/chunks/build/NuxtImg-BHyxB0KT.mjs (18.3 kB) (5.32 kB gzip)
+  ├─ .output/server/chunks/build/NuxtImg-BHyxB0KT.mjs.map (808 B) (336 B gzip)
+  ├─ .output/server/chunks/build/ProseA-D4QDVXiN.mjs (1.71 kB) (720 B gzip)
+  ├─ .output/server/chunks/build/ProseA-D4QDVXiN.mjs.map (238 B) (196 B gzip)
+  ├─ .output/server/chunks/build/ProseBlockquote-C2aaALEu.mjs (1.2 kB) (555 B gzip)
+  ├─ .output/server/chunks/build/ProseBlockquote-C2aaALEu.mjs.map (143 B) (120 B gzip)
+  ├─ .output/server/chunks/build/ProseCode-ClY5Died.mjs (1.15 kB) (550 B gzip)
+  ├─ .output/server/chunks/build/ProseCode-ClY5Died.mjs.map (137 B) (114 B gzip)
+  ├─ .output/server/chunks/build/ProseEm-BRoOUaPG.mjs (1.14 kB) (546 B gzip)
+  ├─ .output/server/chunks/build/ProseEm-BRoOUaPG.mjs.map (135 B) (112 B gzip)
+  ├─ .output/server/chunks/build/ProseH1-Bb1hdHIP.mjs (1.74 kB) (757 B gzip)
+  ├─ .output/server/chunks/build/ProseH1-Bb1hdHIP.mjs.map (217 B) (179 B gzip)
+  ├─ .output/server/chunks/build/ProseH2-9RU4EDBy.mjs (1.75 kB) (762 B gzip)
+  ├─ .output/server/chunks/build/ProseH2-9RU4EDBy.mjs.map (217 B) (183 B gzip)
+  ├─ .output/server/chunks/build/ProseH3-Ck6HLsWq.mjs (1.75 kB) (761 B gzip)
+  ├─ .output/server/chunks/build/ProseH3-Ck6HLsWq.mjs.map (217 B) (181 B gzip)
+  ├─ .output/server/chunks/build/ProseH4-BjyKgPDG.mjs (1.75 kB) (761 B gzip)
+  ├─ .output/server/chunks/build/ProseH4-BjyKgPDG.mjs.map (217 B) (180 B gzip)
+  ├─ .output/server/chunks/build/ProseH5-8ZAWlq4O.mjs (1.75 kB) (764 B gzip)
+  ├─ .output/server/chunks/build/ProseH5-8ZAWlq4O.mjs.map (217 B) (182 B gzip)
+  ├─ .output/server/chunks/build/ProseH6-C57RLjQa.mjs (1.75 kB) (761 B gzip)
+  ├─ .output/server/chunks/build/ProseH6-C57RLjQa.mjs.map (217 B) (181 B gzip)
+  ├─ .output/server/chunks/build/ProseHr-B0kzw3WR.mjs (1.04 kB) (513 B gzip)
+  ├─ .output/server/chunks/build/ProseHr-B0kzw3WR.mjs.map (133 B) (112 B gzip)
+  ├─ .output/server/chunks/build/ProseImg-qkeUiJub.mjs (2.22 kB) (905 B gzip)
+  ├─ .output/server/chunks/build/ProseImg-qkeUiJub.mjs.map (233 B) (189 B gzip)
+  ├─ .output/server/chunks/build/ProseLi-l5jqX_Xz.mjs (1.14 kB) (548 B gzip)
+  ├─ .output/server/chunks/build/ProseLi-l5jqX_Xz.mjs.map (135 B) (112 B gzip)
+  ├─ .output/server/chunks/build/ProseOl-BCTHQu5P.mjs (1.14 kB) (549 B gzip)
+  ├─ .output/server/chunks/build/ProseOl-BCTHQu5P.mjs.map (135 B) (112 B gzip)
+  ├─ .output/server/chunks/build/ProseP-DI7v-2gM.mjs (1.13 kB) (546 B gzip)
+  ├─ .output/server/chunks/build/ProseP-DI7v-2gM.mjs.map (134 B) (111 B gzip)
+  ├─ .output/server/chunks/build/ProsePre-ByG-rB1z.mjs (1.25 kB) (553 B gzip)
+  ├─ .output/server/chunks/build/ProsePre-ByG-rB1z.mjs.map (219 B) (180 B gzip)
+  ├─ .output/server/chunks/build/ProsePre-styles-1.mjs-ZDOavOBa.mjs (201 B) (159 B gzip)
+  ├─ .output/server/chunks/build/ProsePre-styles-1.mjs-ZDOavOBa.mjs.map (121 B) (121 B gzip)
+  ├─ .output/server/chunks/build/ProsePre-styles.a18PV1zE.mjs (323 B) (192 B gzip)
+  ├─ .output/server/chunks/build/ProsePre-styles.a18PV1zE.mjs.map (247 B) (183 B gzip)
+  ├─ .output/server/chunks/build/ProsePre-styles.K7YIDmWo.mjs (281 B) (188 B gzip)
+  ├─ .output/server/chunks/build/ProsePre-styles.K7YIDmWo.mjs.map (237 B) (179 B gzip)
+  ├─ .output/server/chunks/build/ProseScript-B3ujpe25.mjs (1.07 kB) (574 B gzip)
+  ├─ .output/server/chunks/build/ProseScript-B3ujpe25.mjs.map (225 B) (182 B gzip)
+  ├─ .output/server/chunks/build/ProseStrong-DZhFipMN.mjs (1.17 kB) (552 B gzip)
+  ├─ .output/server/chunks/build/ProseStrong-DZhFipMN.mjs.map (139 B) (116 B gzip)
+  ├─ .output/server/chunks/build/ProseTable-mDuiwf8E.mjs (1.16 kB) (551 B gzip)
+  ├─ .output/server/chunks/build/ProseTable-mDuiwf8E.mjs.map (138 B) (115 B gzip)
+  ├─ .output/server/chunks/build/ProseTbody-7cfDynhx.mjs (1.16 kB) (551 B gzip)
+  ├─ .output/server/chunks/build/ProseTbody-7cfDynhx.mjs.map (138 B) (115 B gzip)
+  ├─ .output/server/chunks/build/ProseTd-CzA2DjJi.mjs (1.14 kB) (548 B gzip)
+  ├─ .output/server/chunks/build/ProseTd-CzA2DjJi.mjs.map (135 B) (112 B gzip)
+  ├─ .output/server/chunks/build/ProseTh-C7q_nI-d.mjs (1.14 kB) (548 B gzip)
+  ├─ .output/server/chunks/build/ProseTh-C7q_nI-d.mjs.map (135 B) (112 B gzip)
+  ├─ .output/server/chunks/build/ProseThead-yY9BkDVv.mjs (1.16 kB) (553 B gzip)
+  ├─ .output/server/chunks/build/ProseThead-yY9BkDVv.mjs.map (138 B) (115 B gzip)
+  ├─ .output/server/chunks/build/ProseTr-BfWFA36H.mjs (1.14 kB) (550 B gzip)
+  ├─ .output/server/chunks/build/ProseTr-BfWFA36H.mjs.map (135 B) (112 B gzip)
+  ├─ .output/server/chunks/build/ProseUl-c7m2NKb-.mjs (1.14 kB) (548 B gzip)
+  ├─ .output/server/chunks/build/ProseUl-c7m2NKb-.mjs.map (135 B) (112 B gzip)
+  ├─ .output/server/chunks/build/server.mjs (49 kB) (12.1 kB gzip)
+  ├─ .output/server/chunks/build/server.mjs.map (3.03 kB) (732 B gzip)
+  ├─ .output/server/chunks/build/styles.mjs (1.94 kB) (548 B gzip)
+  ├─ .output/server/chunks/build/styles.mjs.map (186 B) (152 B gzip)
+  ├─ .output/server/chunks/nitro/nitro.mjs (188 kB) (46.8 kB gzip)
+  ├─ .output/server/chunks/nitro/nitro.mjs.map (3.92 kB) (939 B gzip)
+  ├─ .output/server/chunks/routes/renderer.mjs (14 kB) (4.35 kB gzip)
+  ├─ .output/server/chunks/routes/renderer.mjs.map (770 B) (280 B gzip)
+  ├─ .output/server/chunks/virtual/_virtual_spa-template.mjs (94 B) (100 B gzip)
+  ├─ .output/server/chunks/virtual/_virtual_spa-template.mjs.map (112 B) (111 B gzip)
+  ├─ .output/server/index.mjs (392 B) (224 B gzip)
+  └─ .output/server/package.json (6.66 kB) (1.86 kB gzip)
+Σ Total size: 29.2 MB (11 MB gzip)
+[@nuxt/image 9:22:24 PM]  WARN  sharp binaries for linux-x64 cannot be found. Please report this as a bug with a reproduction at https://github.com/nuxt/image.
+[nitro 9:22:24 PM] ✔ You can preview this build using node .output/server/index.mjs
+Done in 31.52s.
