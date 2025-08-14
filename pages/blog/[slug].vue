@@ -210,7 +210,6 @@ const { data: allPosts } = await useAsyncData<BlogPost[] | null>('blog-posts-sid
 const recentPosts = computed<BlogPost[]>(() => {
   if (!allPosts.value) return []
   return allPosts.value
-    .filter(p => p.slug !== slug)
     .slice(0, 5)
 })
 
