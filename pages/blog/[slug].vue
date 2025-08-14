@@ -192,25 +192,43 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+interface BlogPostAuthor {
+  display_name: string
+}
+interface BlogPost {
+  title: string
+  slug?: string
+  date: string | Date
+  draft?: boolean
+  tags?: string[]
+  image?: string
+  author?: BlogPostAuthor
+  top?: boolean
+  description?: string
+  excerpt?: string
+  // Content body fields from @nuxt/content
+  body?: any
+}
+
 const route = useRoute()
-const slug = route.params.slug
+const slug = route.params.slug as string
 
 // Fetch the specific blog post by slug
-const { data: post, pending } = await useAsyncData(`blog-post-${slug}`, () =>
+const { data: post, pending } = await useAsyncData<BlogPost | null>(`blog-post-${slug}`, () =>
   queryCollection('blog')
-    .where('slug', slug)
-    .first()
+    .where('slug', '=', slug)
+    .findOne<BlogPost>()
 )
 
 // Fetch recent posts for sidebar (latest 5, excluding current post)
-const { data: allPosts } = await useAsyncData('blog-posts-sidebar', () =>
+const { data: allPosts } = await useAsyncData<BlogPost[] | null>('blog-posts-sidebar', () =>
   queryCollection('blog')
     .order('date', 'DESC')
-    .all()
+    .all<BlogPost>()
 )
 
-const recentPosts = computed(() => {
+const recentPosts = computed<BlogPost[]>(() => {
   if (!allPosts.value) return []
   return allPosts.value
     .filter(p => p.slug !== slug)
@@ -218,7 +236,7 @@ const recentPosts = computed(() => {
 })
 
 // Format date helper
-const formatDate = (date) => {
+const formatDate = (date: string | Date): string => {
   return new Date(date).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
@@ -226,20 +244,25 @@ const formatDate = (date) => {
   })
 }
 
-// Social sharing functions
-const shareOnTwitter = () => {
-  const url = encodeURIComponent(window.location.href)
-  const text = encodeURIComponent(`Check out this post: ${post.value.title}`)
-  window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank')
+// Social sharing functions (guard for SSR)
+const shareOnTwitter = (): void => {
+  if (!post.value) return
+  if (process.client) {
+    const url = encodeURIComponent(window.location.href)
+    const text = encodeURIComponent(`Check out this post: ${post.value.title}`)
+    window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank')
+  }
 }
 
-const shareOnLinkedIn = () => {
-  const url = encodeURIComponent(window.location.href)
-  window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank')
+const shareOnLinkedIn = (): void => {
+  if (process.client) {
+    const url = encodeURIComponent(window.location.href)
+    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank')
+  }
 }
 
-// SEO Meta
-useHead({
+// SEO Meta (reactive to post value)
+useHead(() => ({
   title: post.value ? `${post.value.title} - Dev-Speak` : 'Post Not Found - Dev-Speak',
   meta: [
     {
@@ -260,16 +283,16 @@ useHead({
     },
     {
       property: 'article:published_time',
-      content: post.value?.date
+      content: post.value?.date?.toString()
     },
     {
       property: 'article:author',
       content: post.value?.author?.display_name || 'Dev-Speak'
     }
   ]
-})
+}))
 
-// Handle 404 if post not found
+// Handle 404 if post not found (only after data resolved)
 if (!pending.value && !post.value) {
   throw createError({
     statusCode: 404,
