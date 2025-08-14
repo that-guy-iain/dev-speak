@@ -1,26 +1,5 @@
 <template>
   <div class="min-h-screen bg-gray-50">
-    <!-- Header -->
-    <header class="bg-white shadow-sm border-b">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center py-6">
-          <div class="flex items-center">
-            <h1 class="text-2xl font-bold text-gray-900">
-              <NuxtLink to="/" class="hover:text-blue-600 transition-colors">
-                Dev-Speak
-              </NuxtLink>
-            </h1>
-          </div>
-          <nav class="hidden md:flex space-x-8">
-            <NuxtLink to="/" class="text-gray-600 hover:text-gray-900 transition-colors">Home</NuxtLink>
-            <NuxtLink to="/blog" class="text-blue-600 font-medium">Blog</NuxtLink>
-            <NuxtLink to="/about" class="text-gray-600 hover:text-gray-900 transition-colors">About</NuxtLink>
-            <NuxtLink to="/contact" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</NuxtLink>
-          </nav>
-        </div>
-      </div>
-    </header>
-
     <!-- Main Content -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div class="flex flex-col lg:flex-row gap-8">
@@ -215,17 +194,17 @@ const route = useRoute()
 const slug = route.params.slug as string
 
 // Fetch the specific blog post by slug
-const { data: post, pending } = await useAsyncData<BlogPost | null>(`blog-post-${slug}`, () =>
+const { data: postList, pending } = await useAsyncData<BlogPost | null>(`blog-post-${slug}`, () =>
   queryCollection('blog')
     .where('slug', '=', slug)
-    .findOne<BlogPost>()
+    .all<BlogPost>()
 )
 
 // Fetch recent posts for sidebar (latest 5, excluding current post)
 const { data: allPosts } = await useAsyncData<BlogPost[] | null>('blog-posts-sidebar', () =>
   queryCollection('blog')
     .order('date', 'DESC')
-    .all<BlogPost>()
+    .all()
 )
 
 const recentPosts = computed<BlogPost[]>(() => {
@@ -246,7 +225,7 @@ const formatDate = (date: string | Date): string => {
 
 // Social sharing functions (guard for SSR)
 const shareOnTwitter = (): void => {
-  if (!post.value) return
+  if (!postList.value) return
   if (process.client) {
     const url = encodeURIComponent(window.location.href)
     const text = encodeURIComponent(`Check out this post: ${post.value.title}`)
@@ -261,6 +240,15 @@ const shareOnLinkedIn = (): void => {
   }
 }
 
+// Handle 404 if post not found (only after data resolved)
+if (!pending.value && !postList.value) {
+  throw createError({
+    statusCode: 404,
+    statusMessage: 'Blog post not found'
+  })
+}
+
+const post = postList.value[0] || null
 // SEO Meta (reactive to post value)
 useHead(() => ({
   title: post.value ? `${post.value.title} - Dev-Speak` : 'Post Not Found - Dev-Speak',
@@ -292,13 +280,6 @@ useHead(() => ({
   ]
 }))
 
-// Handle 404 if post not found (only after data resolved)
-if (!pending.value && !post.value) {
-  throw createError({
-    statusCode: 404,
-    statusMessage: 'Blog post not found'
-  })
-}
 </script>
 
 <style scoped>
