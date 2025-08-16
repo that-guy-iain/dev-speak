@@ -17,22 +17,7 @@
           </div>
 
           <article v-else-if="post" class="bg-white rounded-lg shadow-sm p-8">
-            <!-- Breadcrumb -->
-            <nav class="mb-6">
-              <ol class="flex items-center space-x-2 text-sm text-gray-500">
-                <li>
-                  <NuxtLink to="/" class="hover:text-gray-700">Home</NuxtLink>
-                </li>
-                <li>/</li>
-                <li>
-                  <NuxtLink to="/blog" class="hover:text-gray-700">Blog</NuxtLink>
-                </li>
-                <li>/</li>
-                <li class="text-gray-900">{{ post.title }}</li>
-              </ol>
-            </nav>
-
-            <!-- Article Header -->
+                    <!-- Article Header -->
             <header class="mb-8">
               <h1 class="text-4xl font-bold text-gray-900 mb-4">{{ post.title }}</h1>
               
