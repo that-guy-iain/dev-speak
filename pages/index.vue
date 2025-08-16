@@ -7,14 +7,21 @@
           <!-- Text Content -->
           <div class="text-center lg:text-left">
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Turn Your Vision into 
-              <span class="text-blue-600">Tech</span>
+              Finally Understand Your 
+              <span class="text-blue-600">Tech Team</span>
+              <span class="block text-3xl sm:text-4xl lg:text-5xl mt-2">(Without Learning to Code)</span>
             </h1>
-            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
-              The plain-English guide that bridges the gap between your entrepreneurial vision 
-              and the technical reality of building it. Stop nodding along in confusion. 
-              Start leading with confidence.
-            </p>
+            <div class="mb-8">
+              <p class="text-xl text-gray-700 mb-4 leading-relaxed font-medium">
+                Are you tired of feeling left out of technical conversations? Do you worry if you're making the right decisions about your product's architecture or if you're being overcharged by developers?
+              </p>
+              <p class="text-xl text-blue-600 mb-4 leading-relaxed font-semibold">
+                Imagine communicating with your team with confidence, saving thousands on development costs, and knowing your project is on the right track.
+              </p>
+              <p class="text-lg text-gray-600 leading-relaxed">
+                Dev-Speak is the plain-English guide that transforms confused founders into confident tech leaders. Stop nodding along in confusion. Start leading with authority.
+              </p>
+            </div>
             <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a 
                 href="#" 
@@ -56,10 +63,10 @@
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-12">
           <h2 class="text-3xl font-bold text-gray-900 mb-4">
-            Why Founders Love Dev-Speak
+            Transform From Confused to Confident
           </h2>
-          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-            Finally understand the technical side of your business without learning to code
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            Stop feeling like an outsider in your own company. These three core benefits will change how you lead your tech team forever.
           </p>
         </div>
         
@@ -70,8 +77,8 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Speak Their Language</h3>
-            <p class="text-gray-600">Communicate effectively with your technical team and make informed decisions</p>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Finally Speak Their Language</h3>
+            <p class="text-gray-600">No more awkward silences when developers start talking about APIs and databases. Join the conversation with confidence and make decisions that actually make sense.</p>
           </div>
           
           <div class="text-center p-6">
@@ -80,8 +87,8 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Save Money</h3>
-            <p class="text-gray-600">Avoid costly miscommunications and recognize when solutions are overkill</p>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Stop Bleeding Money</h3>
+            <p class="text-gray-600">Spot when developers are overselling you expensive solutions you don't need. Avoid the $50,000 mistakes that happen when you can't tell good advice from bad advice.</p>
           </div>
           
           <div class="text-center p-6">
@@ -90,8 +97,8 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
               </svg>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Move Faster</h3>
-            <p class="text-gray-600">Make decisions quickly without constantly asking for explanations</p>
+            <h3 class="text-xl font-semibold text-gray-900 mb-2">Build Your Tech Company Faster</h3>
+            <p class="text-gray-600">Stop waiting for your team to explain every technical decision. Make smart choices in minutes, not meetings. Your competitors won't wait for you to catch up.</p>
           </div>
         </div>
       </div>
@@ -223,11 +230,12 @@
       <div class="max-w-7xl mx-auto">
         <div class="text-center mb-12">
           <h2 class="text-3xl font-bold text-gray-900 mb-4">
-            Know When You're Being Advised Correctly
+            Never Get Taken Advantage Of Again
           </h2>
           <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            That sinking feeling when you realize you've been sold the wrong solution? It ends here. 
             Learn to spot the differences between programming languages, databases, and hosting solutions 
-            so you can evaluate technical recommendations with confidence
+            so you can catch bad advice before it costs you everything.
           </p>
         </div>
         
@@ -307,14 +315,17 @@
 
         <!-- Call to Action -->
         <div class="text-center mt-12">
+          <p class="text-lg text-gray-700 mb-4 font-medium">
+            Every day you wait is another day your competitors get ahead while you're stuck in confusion.
+          </p>
           <p class="text-lg text-gray-600 mb-6">
-            Stop second-guessing technical decisions. Get the knowledge you need to lead confidently.
+            Transform from confused founder to confident tech leader. Your team is waiting for you to step up.
           </p>
           <a 
             href="#" 
             class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl"
           >
-            Learn the Differences - $10
+            Stop Being Confused - Get Dev-Speak for $10
           </a>
         </div>
       </div>
