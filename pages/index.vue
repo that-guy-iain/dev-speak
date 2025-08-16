@@ -321,12 +321,35 @@
           <p class="text-lg text-gray-600 mb-6">
             Transform from confused founder to confident tech leader. Your team is waiting for you to step up.
           </p>
+          
+          <!-- Pricing with Anchor Pricing -->
+          <div class="mb-6">
+            <div class="text-center mb-4">
+              <span class="text-2xl text-gray-500 line-through mr-3">$49</span>
+              <span class="text-4xl font-bold text-blue-600">$10</span>
+            </div>
+            <p class="text-sm text-gray-600 mb-4">Limited time offer - Save $39!</p>
+          </div>
+          
           <a 
             href="#" 
-            class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl"
+            class="inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl mb-6"
           >
-            Stop Being Confused - Get Dev-Speak for $10
+            Stop Being Confused - Get Dev-Speak Now
           </a>
+          
+          <!-- Money-Back Guarantee -->
+          <div class="bg-green-50 border border-green-200 rounded-lg p-6 max-w-md mx-auto">
+            <div class="flex items-center justify-center mb-3">
+              <svg class="w-8 h-8 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              <h4 class="text-lg font-semibold text-green-800">100% Money-Back Guarantee</h4>
+            </div>
+            <p class="text-green-700 text-sm">
+              Not satisfied? Get your money back, no questions asked. We're confident Dev-Speak will transform how you approach technology decisions.
+            </p>
+          </div>
         </div>
       </div>
     </section>
